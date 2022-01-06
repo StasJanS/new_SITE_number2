@@ -132,48 +132,61 @@ a:active {
     color: blueviolet;
 }
 
-@media (min-width: 481px) and (max-width: 1024px)
+@media (min-width: 200px ) and (max-width: 800px)
 {body {
-    width: auto;
-    font-size: 15px;
+    margin: auto;
+    background-size: 100%;
+    width: 100%;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+.jop {
+    display: flex;
+    justify-content: stretch;
+    background-color: blue;
+    position: fixed;
 }
 .body2 {
     background-color: antiquewhite;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 .upeR {
     position: fixed;
-    right: 5px;
-    top: 5px;
+    right: 10px;
+    top: 90%;
 }
 .foto_up {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 }
 .py {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .py_f {
-    width: 100px;
-    height: 100px;
+    width: 0px;
+    height: 0px;
 }
 .up {
     display: flex;
-    justify-content:space-around;
-
+    justify-content: space-around;
     font-family: "Book Antiqua";
-    font-size: 15px;
+    font-size: 20px;
 }
 h1 {
-    font-size: 17px;
     font-family: "Book Antiqua";
     text-decoration: underline;
     color: darkgreen;
+    font-size: 25px;
 }
 .foto {
-    width: 170px;
-    height: 180px;
+    width: 220px;
+    height: 230px;
     border-radius: 50%
 }
 .foto1 {
@@ -181,11 +194,11 @@ h1 {
     justify-content: center;
 }
 .iam {
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Book Antiqua";
     text-align: justify;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
     line-height: 150%;
 }
 .bntu1 {
@@ -197,21 +210,295 @@ h1 {
     height: 0px;
 }
 .sert {
-    height: 100px;
-    width: 180px;
+    height: 150px;
+    width: 250px;
+}
+.sert2 {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+}
+.sert_text {
+    font-family: "Book Antiqua";
+    padding-left: 5px;
+    font-size: 20px;
+}
+.obr {
+    padding-left: 5px;
+    font-family: "Book Antiqua";
+    color: brown;
+}
+.work {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.jobs {
+    color: #810ba2;
+}
+.work_foto {
+    width: 0px;
+    height: 0px;
+}
+.iam_work {
+    font-size: 20px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 150%;
+}
+.tel_foto {
+    width: 50px;
+    height: 50px;
+}
+.tel {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Book Antiqua";
+    font-size: 20px;
+}
+span {
+    padding-left: 5px;
+}
+a:link {
+    color: #0738b6;
+}
+a:visited {
+    color: #8c1616;
+}
+a:hover {
+    color: #2bb026;
+}
+a:active {
+    color: blueviolet;
+}}
+
+@media (min-width: 800px ) and (max-width: 1024px)
+{body {
+   margin: auto;
+    width: 100%;
+}
+.jop {
+    display: flex;
+    justify-content: stretch;
+    background-color: blue;
+    position: fixed;
+}
+.body2 {
+    background-color: antiquewhite;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.upeR {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+.foto_up {
+    height: 30px;
+    width: 30px;
+}
+.py {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.py_f {
+    width: 120px;
+    height: 120px;
+}
+.up {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Book Antiqua";
+    font-size: 25px;
+}
+h1 {
+    font-family: "Book Antiqua";
+    text-decoration: underline;
+    color: darkgreen;
+    font-size: 25px;
+}
+.foto {
+    width: 220px;
+    height: 230px;
+    border-radius: 50%
+}
+.foto1 {
+    display: flex;
+    justify-content: center;
+}
+.iam {
+    font-size: 20px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 150%;
+}
+.bntu1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.bntu2 {
+    width: 0px;
+    height: 0px;
+}
+.sert {
+    height: 250px;
+    width: 400px;
 }
 .sert2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-h2 {
-    font-size: 15px;
+.sert_text {
+    font-family: "Book Antiqua";
+    padding-left: 70px;
+    font-size: 20px;
+}
+.obr {
+    padding-left: 40px;
+    font-family: "Book Antiqua";
+    color: brown;
+}
+.work {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.jobs {
+    color: #810ba2;
+}
+.work_foto {
+    width: 0px;
+    height: 0px;
+}
+.iam_work {
+    font-size: 20px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 150%;
+}
+.tel_foto {
+    width: 50px;
+    height: 50px;
+}
+.tel {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Book Antiqua";
+    font-size: 20px;
+}
+span {
+    padding-left: 25px;
+}
+a:link {
+    color: #0738b6;
+}
+a:visited {
+    color: #8c1616;
+}
+a:hover {
+    color: #2bb026;
+}
+a:active {
+    color: blueviolet;
+}}
+@media (min-width: 1025px) and (max-width: 1440px)
+{body {
+   margin: auto;
+    background-image: url("img/fon5.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 80%;
+}
+.jop {
+    display: flex;
+    justify-content: stretch;
+    background-color: blue;
+    position: fixed;
+}
+.body2 {
+    background-color: antiquewhite;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.upeR {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+.foto_up {
+    height: 30px;
+    width: 30px;
+}
+.py {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.py_f {
+    width: 150px;
+    height: 150px;
+}
+.up {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Book Antiqua";
+    font-size: 30px;
+}
+h1 {
+    font-family: "Book Antiqua";
+    text-decoration: underline;
+    color: darkgreen;
+}
+.foto {
+    width: 230px;
+    height: 250px;
+    border-radius: 50%
+}
+.foto1 {
+    display: flex;
+    justify-content: center;
+}
+.iam {
+    font-size: 20px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 150%;
+}
+.bntu1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.bntu2 {
+    width: 120px;
+    height: 120px;
+}
+.sert {
+    height: 200px;
+    width: 300px;
+}
+.sert2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .sert_text {
     font-family: "Book Antiqua";
-    padding-left: 10px;
-    font-size: 12px;
+    padding-left: 70px;
+    font-size: 25px;
 }
 .obr {
     padding-left: 40px;
@@ -226,12 +513,8 @@ h2 {
 .jobs {
     color: darkblue;
 }
-.work_foto {
-    width: 0px;
-    height: 0px;
-}
 .iam_work {
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Book Antiqua";
     text-align: justify;
     padding-left: 70px;
@@ -239,15 +522,15 @@ h2 {
     line-height: 150%;
 }
 .tel_foto {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
 }
 .tel {
     display: flex;
     align-items: center;
     padding-left: 70px;
     font-family: "Book Antiqua";
-    font-size: 15px;
+    font-size: 20px;
 }
 span {
     padding-left: 25px;
@@ -264,4 +547,5 @@ a:hover {
 a:active {
     color: blueviolet;
 }
+
 }
