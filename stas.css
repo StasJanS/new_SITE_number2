@@ -70,6 +70,7 @@ h1 {
     width: 120px;
     height: 120px;
 }
+
 .sert {
     height: 250px;
     width: 400px;
@@ -160,8 +161,8 @@ h1 {
     top: 90%;
 }
 .foto_up {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
 }
 .py {
     display: flex;
@@ -197,9 +198,13 @@ h1 {
     font-size: 20px;
     font-family: "Book Antiqua";
     text-align: justify;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 150%;
+}
+li {
+    font-size: 20px;
+    font-family: "Book Antiqua";
 }
 .bntu1 {
     display: flex;
@@ -258,7 +263,7 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
     font-family: "Book Antiqua";
-    font-size: 20px;
+    font-size: 25px;
 }
 span {
     padding-left: 5px;
