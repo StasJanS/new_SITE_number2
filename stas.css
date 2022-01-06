@@ -183,7 +183,7 @@ h1 {
     font-family: "Book Antiqua";
     text-decoration: underline;
     color: darkgreen;
-    font-size: 30px;
+    font-size: 35px;
 }
 .foto {
     width: 220px;
@@ -254,12 +254,12 @@ h1 {
 .tel_foto {
     width: 50px;
     height: 50px;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .tel {
     display: flex;
     justify-content: flex-start;
-    padding-left: 10px;
+    padding-left: 5px;
     font-family: "Book Antiqua";
     font-size: 30px;
 }
