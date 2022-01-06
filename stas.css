@@ -258,7 +258,7 @@ h1 {
 }
 .tel {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 10px;
     padding-right: 10px;
     font-family: "Book Antiqua";
