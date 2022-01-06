@@ -276,7 +276,7 @@ a:active {
     color: blueviolet;
 }}
 
-@media (min-width: 800px ) and (max-width: 1024px)
+@media (min-width: 800px ) and (max-width: 1100px)
 {body {
    margin: auto;
     width: 100%;
@@ -413,7 +413,7 @@ a:hover {
 a:active {
     color: blueviolet;
 }}
-@media (min-width: 1025px) and (max-width: 1440px)
+@media (min-width: 1100px) and (max-width: 1440px)
 {body {
    margin: auto;
     background-image: url("img/fon5.jpg");
