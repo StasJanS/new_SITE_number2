@@ -158,11 +158,11 @@ h1 {
 .upeR {
     position: fixed;
     right: 10px;
-    top: 90%;
+    top: 80%;
 }
 .foto_up {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 }
 .py {
     display: flex;
@@ -195,29 +195,26 @@ h1 {
     justify-content: center;
 }
 .iam {
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Book Antiqua";
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 150%;
 }
-li {
-    font-size: 30px;
-    font-family: "Book Antiqua";
-    line-height: 150%;
-}
+
 .bntu1 {
     display: flex;
     justify-content: flex-start;
 }
+
 .bntu2 {
     width: 0px;
     height: 0px;
 }
 .sert {
-    height: 200px;
-    width: 250px;
+    height: 220px;
+    width: 300px;
 }
 .sert2 {
     display: flex;
@@ -264,7 +261,7 @@ li {
     padding-left: 10px;
     padding-right: 10px;
     font-family: "Book Antiqua";
-    font-size: 23px;
+    font-size: 25px;
 }
 span {
     padding-left: 5px;
